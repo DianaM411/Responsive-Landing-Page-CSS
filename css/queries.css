@@ -1,7 +1,7 @@
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
 
 /**************************/
-/* BELOW 1344px (Smaller desktops) */
+/* < 1344px (Smaller desktops) */
 /**************************/
 
 @media (max-width: 84em) {
@@ -12,14 +12,10 @@
   .heading-primary {
     font-size: 4.4rem;
   }
-
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /**************************/
-/* BELOW 1200px (Landscape Tablets) */
+/* < 1200px (Landscape Tablets) */
 /**************************/
 
 @media (max-width: 75em) {
@@ -52,14 +48,10 @@
   .hero {
     gap: 4.8rem;
   }
-
-  .testimonials-container {
-    padding: 9.6rem 3.2rem;
-  }
 }
 
 /**************************/
-/* BELOW 944px (Tablets) */
+/* < 944px (Tablets) */
 /**************************/
 
 @media (max-width: 59em) {
@@ -102,10 +94,6 @@
 
   .section-testimonials {
     grid-template-columns: 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(6, 1fr);
   }
 
   .cta {
@@ -181,7 +169,7 @@
 }
 
 /**************************/
-/* BELOW 704px (Smaller tablets) */
+/* < 704px (Smaller tablets) */
 /**************************/
 
 @media (max-width: 44em) {
@@ -220,7 +208,7 @@
 }
 
 /**************************/
-/* BELOW 544px (Phones) */
+/* < 544px (Phones) */
 /**************************/
 
 @media (max-width: 34em) {
@@ -272,11 +260,6 @@
     grid-template-columns: 1fr;
   }
 
-  .gallery {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
-  }
-
   .cta {
     grid-template-columns: 1fr;
   }
@@ -290,11 +273,3 @@
     grid-row: 1;
   }
 }
-
-/* 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
