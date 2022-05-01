@@ -75,7 +75,7 @@
     width: 60%;
   }
 
-  .delivered-meals {
+  .download-app {
     justify-content: center;
     margin-top: 3.2rem;
   }
@@ -88,12 +88,8 @@
     font-size: 7.4rem;
   }
 
-  .meal-content {
+  .plan-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
-  }
-
-  .section-testimonials {
-    grid-template-columns: 1fr;
   }
 
   .cta {
@@ -178,17 +174,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .diets {
-    grid-column: 1 / -1;
-    justify-self: center;
-  }
-
   .heading-secondary {
     margin-bottom: 4.8rem;
-  }
-
-  .pricing-plan {
-    width: 100%;
   }
 
   .grid--footer {

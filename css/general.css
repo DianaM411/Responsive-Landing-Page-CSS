@@ -6,7 +6,6 @@
 
 html {
   /* font-size: 10px; */
-
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
@@ -18,8 +17,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-
-  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
@@ -55,10 +52,6 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
-/* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
 
 .grid--center-v {
   align-items: center;
@@ -139,9 +132,6 @@ body {
 .btn--outline:active {
   background-color: #5c73b2;
   color: white;
-
-  /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .btn--form {
@@ -192,8 +182,6 @@ body {
   height: 3rem;
   color: #5c73b2;
 }
-
-
 
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
