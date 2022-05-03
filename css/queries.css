@@ -125,8 +125,6 @@
     transition: all 0.5s ease-in;
 
     /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
 
     /* 1) Hide it visually */
     opacity: 0;
